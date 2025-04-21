@@ -1,5 +1,5 @@
 # Name: Iniya E
-# Reg.No: 24900540
+# Reg.No: 212224230096
 # INVERSE OF A MATRIX
 ## Aim:
 To write a python program to find the inverse of a matrix
@@ -12,7 +12,20 @@ To write a python program to find the inverse of a matrix
 ## step3: Use the np.linalg.inv() fun
 ## step4: End the program.
 ## Program:
-![Screenshot 2025-03-02 231405](https://github.com/user-attachments/assets/0c92bbfc-4b4f-4f68-8512-6702e04d65e4)
+```
+import numpy as np
+
+
+matrix = np.array([[6, 2, 3],
+                   [3, 1, 1],
+                   [10, 3, 4]])
+
+
+determinant = np.linalg.det(matrix)
+
+inverse_matrix = np.linalg.inv(matrix)
+print(inverse_matrix)
+```
 
 ## Output:
 ![Screenshot 2025-03-02 231423](https://github.com/user-attachments/assets/b99a7435-ab37-4804-bcde-4a1af9fccd5a)
